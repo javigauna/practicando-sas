@@ -1,0 +1,9 @@
+body{
+    color: black;
+    overflow: scroll;
+    background: #181818;
+}
+
+@import "menu" ;
+@import "contenido" ;
+@import "footer" ;

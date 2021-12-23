@@ -1,0 +1,29 @@
+nav{
+    background-color: #ffd417;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+
+    h1{
+        width: 100px;
+        grid-column: 2/3;
+    }
+
+    ul{
+        grid-column: 3/7;
+        display: flex;
+        justify-content: space-around;
+    }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color:#181818;
+            cursor: pointer;
+            font-size: 1.25rem
+        }
+    
+
+    
+}

@@ -1,0 +1,65 @@
+body {
+  color: black;
+  overflow: scroll;
+  background: #181818; }
+
+nav {
+  background-color: #ffd417;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center; }
+  nav h1 {
+    width: 100px;
+    grid-column: 2/3; }
+  nav ul {
+    grid-column: 3/7;
+    display: flex;
+    justify-content: space-around; }
+  nav li {
+    list-style: none; }
+  nav a {
+    text-decoration: none;
+    color: #181818;
+    cursor: pointer;
+    font-size: 1.25rem; }
+
+main {
+  height: 80vh;
+  background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.8)), url(../img/vcp.jpg);
+  background-size: cover;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 1fr); }
+  main div {
+    grid-column: 5/7;
+    grid-row: 2/4;
+    color: white; }
+  main h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 10px; }
+  main h1 {
+    font-size: 3.5em;
+    color: #ffd417; }
+  main p {
+    font-weight: 300;
+    padding: 20px; }
+
+footer {
+  display: grid;
+  height: 135px;
+  align-items: center;
+  background-color: #181818;
+  color: white;
+  grid-template-areas: "turismo follow-me redes-sociales"; }
+  footer h3 {
+    grid-template-areas: turismo;
+    display: flex;
+    justify-content: center; }
+  footer div h3 {
+    grid-template-areas: follow-me;
+    text-align: center; }
+  footer div img {
+    height: 50px;
+    width: 50px; }
